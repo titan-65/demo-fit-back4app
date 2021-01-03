@@ -93,7 +93,7 @@
 </template>
 
 <script>
-import * as Env from '../environment'
+// import * as Env from '../environment'
 import axios from 'axios'
 
 export default {
@@ -112,8 +112,8 @@ export default {
       // })
       const teams = await axios('https://parseapi.back4app.com/classes/Team',{
         headers: {
-          'X-Parse-Application-Id': Env.APPLICATION_ID,
-          'X-Parse-REST-API-Key': Env.REST_API
+          // 'X-Parse-Application-Id': Env.APPLICATION_ID,
+          // 'X-Parse-REST-API-Key': Env.REST_API
         }
       })
       const response = await teams.data.results
