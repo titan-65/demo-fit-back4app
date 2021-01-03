@@ -6,7 +6,7 @@
         <div class="col-md-3 col-sm-6">
           <h4 class="mg-md text-sm-left text-center tc-white">
             About
-          </h4><a href="#" class="a-btn a-block footer-link">The Team</a><a href="#" class="a-btn a-block footer-link">Contact Us</a>
+          </h4><a href="https://github.com/titan-65" class="a-btn a-block footer-link">Titan-65</a><a href="https://github.com/titan-65/" class="a-btn a-block footer-link">Contact Us</a>
         </div>
         <div class="col-md-3 col-sm-6">
           <h4 class="mg-md text-sm-left text-center tc-white">
@@ -16,7 +16,7 @@
         <div class="col-md-3 col-sm-6">
           <h4 class="mg-md text-sm-left text-center tc-white">
             Follow Us
-          </h4><a href="#" class="a-btn a-block footer-link">Twitter</a><a href="#" class="a-btn a-block footer-link">Facebook</a>
+          </h4><a href="https://www.twitter.com/VantolBennett" class="a-btn a-block footer-link">Twitter</a><a href="#" class="a-btn a-block footer-link">Facebook</a>
         </div>
         <div class="col-md-3 col-sm-6">
           <h4 class="mg-md text-sm-left text-center tc-white">
@@ -30,7 +30,7 @@
             </div>
             <div class="col-6 col-sm-2">
               <div class="text-center">
-                <a href="#"><span class="fab fa-twitter icon-md"></span></a>
+                <a href="https://www.twitter.com/VantolBennett"><span class="fab fa-twitter icon-md"></span></a>
               </div>
             </div>
             <div class="col-6 col-sm-2">
