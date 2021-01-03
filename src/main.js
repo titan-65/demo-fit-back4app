@@ -13,12 +13,15 @@ import { createApp } from 'vue'
 import { createRouter, createWebHistory } from 'vue-router'
 import Parse from 'parse'
 
-import * as ENV from './environment'
+// import * as ENV from './environment';
 
 require('dotenv').config()
 
-Parse.initialize(ENV.APPLICATION_ID, ENV.JAVASCRIPT_KEY)
-Parse.serverURL = ENV.SERVER_URL
+// Parse.initialize(ENV.APPLICATION_ID, ENV.JAVASCRIPT_KEY);
+// Parse.serverURL = ENV.SERVER_URL;
+
+Parse.initialize(process.env.APPLICATION_ID, process.env.JAVASCRIPT_KEY)
+Parse.serverUrl = process.env.SERVER_URL
 
 const routes = [
   { path: '/', component: Home },
